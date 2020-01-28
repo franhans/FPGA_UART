@@ -41,7 +41,7 @@ module top(
 		end
 	end
 
-	sevenSeg S7 (.clk(clk), .binary(regData), .seg(seg), .ca(ca));
+	sevenSeg S7 (.clk(clk), .binary(regData), .seg(seg), .ca(ca));    
 	
 endmodule
 	
